@@ -5,4 +5,8 @@ import { hydrateRoot } from "react-dom/client";
 startTransition(() => {
   hydrateRoot(
     document,
-    <StrictM
+    <StrictMode>
+      <RemixBrowser />
+    </StrictMode>
+  );
+})
