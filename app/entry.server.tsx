@@ -7,4 +7,6 @@ import { renderToPipeableStream } from "react-dom/server";
 
 const ABORT_DELAY = 5000;
 
-export 
+export default function handleRequest(
+  request: Request,
+  responseS
