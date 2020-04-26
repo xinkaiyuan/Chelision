@@ -11,4 +11,6 @@ export default function handleRequest(
   request: Request,
   responseStatusCode: number,
   responseHeaders: Headers,
-  remixContext: En
+  remixContext: EntryContext
+) {
+  const callbackName = isbot(request.headers.get("user-agent"
