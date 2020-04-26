@@ -9,4 +9,6 @@ const ABORT_DELAY = 5000;
 
 export default function handleRequest(
   request: Request,
-  responseS
+  responseStatusCode: number,
+  responseHeaders: Headers,
+  remixContext: En
