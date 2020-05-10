@@ -20,4 +20,5 @@ export default function handleRequest(
   return new Promise((resolve, reject) => {
     let didError = false;
 
-    const
+    const { pipe, abort } = renderToPipeableStream(
+      <
