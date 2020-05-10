@@ -17,4 +17,7 @@ export default function handleRequest(
     ? "onAllReady"
     : "onShellReady";
 
-  return new Prom
+  return new Promise((resolve, reject) => {
+    let didError = false;
+
+    const
