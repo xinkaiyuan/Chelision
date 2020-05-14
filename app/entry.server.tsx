@@ -23,4 +23,5 @@ export default function handleRequest(
     const { pipe, abort } = renderToPipeableStream(
       <RemixServer context={remixContext} url={request.url} />,
       {
-    
+        [callbackName]: () => {
+          const body = new PassTh
