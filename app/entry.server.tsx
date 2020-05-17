@@ -26,4 +26,7 @@ export default function handleRequest(
         [callbackName]: () => {
           const body = new PassThrough();
 
-          responseHeaders.set("Content-Type", "
+          responseHeaders.set("Content-Type", "text/html");
+
+          resolve(
+            new R
