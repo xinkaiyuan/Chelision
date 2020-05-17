@@ -29,4 +29,6 @@ export default function handleRequest(
           responseHeaders.set("Content-Type", "text/html");
 
           resolve(
-            new R
+            new Response(body, {
+              headers: responseHeaders,
+            
