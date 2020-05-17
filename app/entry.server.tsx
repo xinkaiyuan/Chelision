@@ -24,4 +24,6 @@ export default function handleRequest(
       <RemixServer context={remixContext} url={request.url} />,
       {
         [callbackName]: () => {
-          const body = new PassTh
+          const body = new PassThrough();
+
+          responseHeaders.set("Content-Type", "
