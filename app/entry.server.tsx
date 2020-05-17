@@ -31,4 +31,6 @@ export default function handleRequest(
           resolve(
             new Response(body, {
               headers: responseHeaders,
-            
+              status: didError ? 500 : responseStatusCode,
+            })
+       
