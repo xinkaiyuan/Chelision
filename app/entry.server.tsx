@@ -33,4 +33,8 @@ export default function handleRequest(
               headers: responseHeaders,
               status: didError ? 500 : responseStatusCode,
             })
-       
+          );
+
+          pipe(body);
+        },
+        onShellError: 
