@@ -37,4 +37,7 @@ export default function handleRequest(
 
           pipe(body);
         },
-        onShellError: 
+        onShellError: (err: unknown) => {
+          reject(err);
+        },
+       
