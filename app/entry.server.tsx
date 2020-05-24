@@ -40,4 +40,7 @@ export default function handleRequest(
         onShellError: (err: unknown) => {
           reject(err);
         },
-       
+        onError: (error: unknown) => {
+          didError = true;
+
+    
