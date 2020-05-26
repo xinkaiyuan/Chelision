@@ -48,4 +48,6 @@ export default function handleRequest(
       }
     );
 
-    setTimeou
+    setTimeout(abort, ABORT_DELAY);
+  });
+}
