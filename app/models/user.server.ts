@@ -5,4 +5,5 @@ import { prisma } from "~/db.server";
 
 export type { User } from "@prisma/client";
 
-expo
+export async function getUserById(id: User["id"]) {
+  return prisma.user.fi
