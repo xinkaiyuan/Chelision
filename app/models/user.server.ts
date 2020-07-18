@@ -27,3 +27,5 @@ export async function createUser(email: User["email"], password: string) {
     },
   });
 }
+
+export async function deleteUserByEmail(email: User["email
