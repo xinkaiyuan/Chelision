@@ -34,4 +34,6 @@ export async function deleteUserByEmail(email: User["email"]) {
 
 export async function verifyLogin(
   email: User["email"],
-  password:
+  password: Password["hash"]
+) {
+  const userWithPassword = await prisma.user.fi
