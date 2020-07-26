@@ -40,4 +40,7 @@ export async function verifyLogin(
     where: { email },
     include: {
       password: true,
-   
+    },
+  });
+
+  if (!userWithPassword || !userWithPassword.password)
