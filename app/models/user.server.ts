@@ -58,4 +58,5 @@ export async function verifyLogin(
 
   const { password: _password, ...userWithoutPassword } = userWithPassword;
 
-  retur
+  return userWithoutPassword;
+}
