@@ -3,4 +3,6 @@ import { Link } from "@remix-run/react";
 
 import { useOptionalUser } from "~/utils";
 
-export const meta
+export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
+
+export defa
