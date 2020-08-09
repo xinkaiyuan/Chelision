@@ -6,4 +6,6 @@ import { useOptionalUser } from "~/utils";
 export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
 
 export default function Index() {
-  const user = useOptionalUser(
+  const user = useOptionalUser();
+  return (
+    <main className="relative min-h-screen bg-white
