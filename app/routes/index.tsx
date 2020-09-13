@@ -19,4 +19,5 @@ export default function Index() {
                 alt="Sonic Youth On Stage"
               />
               <div className="absolute inset-0 bg-[color:rgba(254,204,27,0.5)] mix-blend-multiply" />
-           
+            </div>
+            <div className="relative px-4 pt-16 pb-8 
