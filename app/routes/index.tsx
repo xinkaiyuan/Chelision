@@ -27,4 +27,7 @@ export default function Index() {
                 </span>
               </h1>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-                Check the README.md file for instructions on how to g
+                Check the README.md file for instructions on how to get this
+                project deployed.
+              </p>
+           
