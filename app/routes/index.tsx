@@ -32,4 +32,6 @@ export default function Index() {
               </p>
               <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                 {user ? (
-   
+                  <Link
+                    to="/notes"
+     
