@@ -34,4 +34,4 @@ export default function Index() {
                 {user ? (
                   <Link
                     to="/notes"
-                    className="flex items-center justify-center 
+                    className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base fo
