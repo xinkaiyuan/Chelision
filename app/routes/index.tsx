@@ -47,4 +47,5 @@ export default function Index() {
                       Sign up
                     </Link>
                     <Link
-           
+                      to="/login"
+                      className="flex items
