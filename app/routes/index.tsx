@@ -55,4 +55,6 @@ export default function Index() {
                   </div>
                 )}
               </div>
-              <a href="https://rem
+              <a href="https://remix.run">
+                <img
+                  src="https://user-images.g
