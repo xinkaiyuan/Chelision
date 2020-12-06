@@ -57,4 +57,4 @@ export default function Index() {
               </div>
               <a href="https://remix.run">
                 <img
-                  src="https://user-images.g
+                  src="https://user-images.githubusercontent.com/1500684/158298926-e45dafff-3544
