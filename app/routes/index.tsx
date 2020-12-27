@@ -71,4 +71,6 @@ export default function Index() {
             {[
               {
                 src: "https://user-images.githubusercontent.com/1500684/157764397-ccd8ea10-b8aa-4772-a99b-35de937319e1.svg",
-                alt: "
+                alt: "Fly.io",
+                href: "https://fly.io",
+              },
