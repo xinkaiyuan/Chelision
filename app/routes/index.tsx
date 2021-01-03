@@ -77,4 +77,7 @@ export default function Index() {
               {
                 src: "https://user-images.githubusercontent.com/1500684/157764395-137ec949-382c-43bd-a3c0-0cb8cb22e22d.svg",
                 alt: "SQLite",
-           
+                href: "https://sqlite.org",
+              },
+              {
+      
