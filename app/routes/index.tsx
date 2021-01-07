@@ -80,4 +80,4 @@ export default function Index() {
                 href: "https://sqlite.org",
               },
               {
-      
+                src: "https://user-images.githubusercontent
