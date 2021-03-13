@@ -100,4 +100,4 @@ export default function Index() {
                 href: "https://mswjs.io",
               },
               {
-                src: "https://use
+                src: "https://user-images.githubusercontent.com/1500684/1
