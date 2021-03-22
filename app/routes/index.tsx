@@ -113,4 +113,6 @@ export default function Index() {
                 src: "https://user-images.githubusercontent.com/1500684/157772934-ce0a943d-e9d0-40f8-97f3-f464c0811643.svg",
                 alt: "Prettier",
                 href: "https://prettier.io",
-             
+              },
+              {
+                src: "https://user-images.gi
