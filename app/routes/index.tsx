@@ -125,4 +125,6 @@ export default function Index() {
                 href: "https://typescriptlang.org",
               },
             ].map((img) => (
-       
+              <a
+                key={img.href}
+                
