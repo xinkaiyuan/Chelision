@@ -127,4 +127,5 @@ export default function Index() {
             ].map((img) => (
               <a
                 key={img.href}
-                
+                href={img.href}
+                className="flex h-16 w-32 justify-ce
