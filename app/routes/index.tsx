@@ -132,4 +132,10 @@ export default function Index() {
               >
                 <img alt={img.alt} src={img.src} className="object-contain" />
               </a>
-            )
+            ))}
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
