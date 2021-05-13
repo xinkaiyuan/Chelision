@@ -7,4 +7,6 @@ export async function action({ request }: ActionArgs) {
   return logout(request);
 }
 
-export async function loade
+export async function loader() {
+  return redirect("/");
+}
