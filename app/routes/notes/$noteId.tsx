@@ -6,4 +6,4 @@ import invariant from "tiny-invariant";
 import { deleteNote, getNote } from "~/models/note.server";
 import { requireUserId } from "~/session.server";
 
-exp
+export async function loader({ request, params }: LoaderArgs) 
