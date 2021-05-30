@@ -6,4 +6,6 @@ import invariant from "tiny-invariant";
 import { deleteNote, getNote } from "~/models/note.server";
 import { requireUserId } from "~/session.server";
 
-export async function loader({ request, params }: LoaderArgs) 
+export async function loader({ request, params }: LoaderArgs) {
+  const userId = await requireUserId(request);
+  invariant(param
