@@ -12,4 +12,9 @@ export async function loader({ request, params }: LoaderArgs) {
 
   const note = await getNote({ userId, id: params.noteId });
   if (!note) {
-    throw new Response
+    throw new Response("Not Found", { status: 404 });
+  }
+  return json({ note });
+}
+
+expor
