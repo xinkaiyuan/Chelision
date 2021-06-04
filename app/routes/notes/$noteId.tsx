@@ -10,4 +10,6 @@ export async function loader({ request, params }: LoaderArgs) {
   const userId = await requireUserId(request);
   invariant(params.noteId, "noteId not found");
 
-  const note = await getNote({ userId,
+  const note = await getNote({ userId, id: params.noteId });
+  if (!note) {
+    throw new Response
