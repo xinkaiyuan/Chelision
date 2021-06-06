@@ -17,4 +17,4 @@ export async function loader({ request, params }: LoaderArgs) {
   return json({ note });
 }
 
-expor
+export async function action({ request, params }: ActionArgs) 
