@@ -17,4 +17,6 @@ export async function loader({ request, params }: LoaderArgs) {
   return json({ note });
 }
 
-export async function action({ request, params }: ActionArgs) 
+export async function action({ request, params }: ActionArgs) {
+  const userId = await requireUserId(request);
+  inv
