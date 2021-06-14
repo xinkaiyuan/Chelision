@@ -21,4 +21,6 @@ export async function action({ request, params }: ActionArgs) {
   const userId = await requireUserId(request);
   invariant(params.noteId, "noteId not found");
 
-  await delete
+  await deleteNote({ userId, id: params.noteId });
+
+  return redirect("/n
