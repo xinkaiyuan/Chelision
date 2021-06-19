@@ -23,4 +23,8 @@ export async function action({ request, params }: ActionArgs) {
 
   await deleteNote({ userId, id: params.noteId });
 
-  return redirect("/n
+  return redirect("/notes");
+}
+
+export default function NoteDetailsPage() {
+  const data = u
