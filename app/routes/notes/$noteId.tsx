@@ -31,4 +31,5 @@ export default function NoteDetailsPage() {
 
   return (
     <div>
-      <h3 className="text
+      <h3 className="text-2xl font-bold">{data.note.title}</h3>
+      <p className
