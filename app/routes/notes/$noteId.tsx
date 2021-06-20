@@ -27,4 +27,8 @@ export async function action({ request, params }: ActionArgs) {
 }
 
 export default function NoteDetailsPage() {
-  const data = u
+  const data = useLoaderData<typeof loader>();
+
+  return (
+    <div>
+      <h3 className="text
