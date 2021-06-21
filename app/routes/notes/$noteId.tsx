@@ -36,4 +36,5 @@ export default function NoteDetailsPage() {
       <hr className="my-4" />
       <Form method="post">
         <button
-          type
+          type="submit"
+          className="rounded bg-blue-500  py-2 px-4 t
