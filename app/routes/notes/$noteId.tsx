@@ -47,3 +47,6 @@ export default function NoteDetailsPage() {
 }
 
 export function ErrorBoundary({ error }: { error: Error }) {
+  console.error(error);
+
+  return <div>An unexpected error occurred:
