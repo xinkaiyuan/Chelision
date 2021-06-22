@@ -42,4 +42,8 @@ export default function NoteDetailsPage() {
           Delete
         </button>
       </Form>
-    </di
+    </div>
+  );
+}
+
+export function ErrorBoundary({ error }: { error: Error }) {
