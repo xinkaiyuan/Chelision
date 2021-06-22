@@ -49,4 +49,8 @@ export default function NoteDetailsPage() {
 export function ErrorBoundary({ error }: { error: Error }) {
   console.error(error);
 
-  return <div>An unexpected error occurred:
+  return <div>An unexpected error occurred: {error.message}</div>;
+}
+
+export function CatchBoundary() {
+  const caught 
