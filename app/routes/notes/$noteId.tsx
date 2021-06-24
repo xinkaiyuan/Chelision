@@ -56,4 +56,7 @@ export function CatchBoundary() {
   const caught = useCatch();
 
   if (caught.status === 404) {
-    return <div>Note not
+    return <div>Note not found</div>;
+  }
+
+  throw new Error(`Unexpected caught respons
