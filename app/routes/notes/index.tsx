@@ -7,4 +7,6 @@ export default function NoteIndexPage() {
       <Link to="new" className="text-blue-500 underline">
         create a new note.
       </Link>
-  
+    </p>
+  );
+}
