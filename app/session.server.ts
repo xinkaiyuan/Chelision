@@ -11,4 +11,6 @@ export const sessionStorage = createCookieSessionStorage({
     name: "__session",
     httpOnly: true,
     path: "/",
-    sameSi
+    sameSite: "lax",
+    secrets: [process.env.SESSION_SECRET],
+    secu
