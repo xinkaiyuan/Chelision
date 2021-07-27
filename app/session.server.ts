@@ -25,4 +25,5 @@ export async function getSession(request: Request) {
 }
 
 export async function getUserId(
-  request
+  request: Request
+): Promise<User["id"] | unde
