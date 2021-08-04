@@ -32,4 +32,5 @@ export async function getUserId(
   return userId;
 }
 
-export asyn
+export async function getUser(request: Request) {
+  const userId = await getUserId(requ
