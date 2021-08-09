@@ -44,4 +44,7 @@ export async function getUser(request: Request) {
 
 export async function requireUserId(
   request: Request,
-  redirectTo: string = new URL(request.url).p
+  redirectTo: string = new URL(request.url).pathname
+) {
+  const userId = await getUserId(request);
+  if (!user
