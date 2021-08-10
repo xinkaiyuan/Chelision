@@ -57,4 +57,5 @@ export async function requireUserId(
 export async function requireUser(request: Request) {
   const userId = await requireUserId(request);
 
-  co
+  const user = await getUserById(userId);
+  if (user) retur
