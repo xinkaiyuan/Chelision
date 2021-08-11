@@ -58,4 +58,9 @@ export async function requireUser(request: Request) {
   const userId = await requireUserId(request);
 
   const user = await getUserById(userId);
-  if (user) retur
+  if (user) return user;
+
+  throw await logout(request);
+}
+
+export async function crea
