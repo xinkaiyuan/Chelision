@@ -71,4 +71,7 @@ export async function createUserSession({
 }: {
   request: Request;
   userId: string;
-  
+  remember: boolean;
+  redirectTo: string;
+}) {
+  const session = a
