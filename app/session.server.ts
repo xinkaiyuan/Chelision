@@ -67,4 +67,8 @@ export async function createUserSession({
   request,
   userId,
   remember,
-  redi
+  redirectTo,
+}: {
+  request: Request;
+  userId: string;
+  
