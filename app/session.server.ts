@@ -63,4 +63,8 @@ export async function requireUser(request: Request) {
   throw await logout(request);
 }
 
-export async function crea
+export async function createUserSession({
+  request,
+  userId,
+  remember,
+  redi
