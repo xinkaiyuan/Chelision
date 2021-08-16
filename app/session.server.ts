@@ -87,4 +87,5 @@ export async function createUserSession({
   });
 }
 
-export async fun
+export async function logout(request: Request) {
+  const session = await getSession(request);
