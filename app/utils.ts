@@ -10,4 +10,5 @@ const DEFAULT_REDIRECT = "/";
  * (Like the query string on our login/signup pages). This avoids
  * open-redirect vulnerabilities.
  * @param {string} to The redirect destination
- * @param {string} defa
+ * @param {string} defaultRedirect The redirect to use if the to is unsafe.
+ 
