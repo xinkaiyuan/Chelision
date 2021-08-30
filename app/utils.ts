@@ -9,4 +9,5 @@ const DEFAULT_REDIRECT = "/";
  * This should be used any time the redirect path is user-provided
  * (Like the query string on our login/signup pages). This avoids
  * open-redirect vulnerabilities.
- * @param {st
+ * @param {string} to The redirect destination
+ * @param {string} defa
