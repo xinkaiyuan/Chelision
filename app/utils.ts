@@ -14,4 +14,7 @@ const DEFAULT_REDIRECT = "/";
  */
 export function safeRedirect(
   to: FormDataEntryValue | string | null | undefined,
-  defaultRedirect: string = DEFAULT_R
+  defaultRedirect: string = DEFAULT_REDIRECT
+) {
+  if (!to || typeof to !== "string") {
+    return defau
