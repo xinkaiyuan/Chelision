@@ -11,4 +11,6 @@ const DEFAULT_REDIRECT = "/";
  * open-redirect vulnerabilities.
  * @param {string} to The redirect destination
  * @param {string} defaultRedirect The redirect to use if the to is unsafe.
- 
+ */
+export function safeRedirect(
+  to: FormDataEntryValue | string |
