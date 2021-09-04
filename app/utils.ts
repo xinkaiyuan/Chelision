@@ -17,4 +17,7 @@ export function safeRedirect(
   defaultRedirect: string = DEFAULT_REDIRECT
 ) {
   if (!to || typeof to !== "string") {
-    return defau
+    return defaultRedirect;
+  }
+
+  if (!to.startsWith("/") || to.startsWith("
