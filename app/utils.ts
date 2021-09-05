@@ -20,4 +20,8 @@ export function safeRedirect(
     return defaultRedirect;
   }
 
-  if (!to.startsWith("/") || to.startsWith("
+  if (!to.startsWith("/") || to.startsWith("//")) {
+    return defaultRedirect;
+  }
+
+  return to;
