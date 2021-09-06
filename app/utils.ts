@@ -25,3 +25,7 @@ export function safeRedirect(
   }
 
   return to;
+}
+
+/**
+ * This base hook is used in other hooks to quickly s
