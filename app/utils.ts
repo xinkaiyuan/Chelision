@@ -28,4 +28,6 @@ export function safeRedirect(
 }
 
 /**
- * This base hook is used in other hooks to quickly s
+ * This base hook is used in other hooks to quickly search for specific data
+ * across all loader data using useMatches.
+ *
