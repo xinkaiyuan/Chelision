@@ -33,4 +33,7 @@ export function safeRedirect(
  * @param {string} id The route id
  * @returns {JSON|undefined} The router data or undefined if not found
  */
-export function use
+export function useMatchesData(
+  id: string
+): Record<string, unknown> | undefined {
+ 
