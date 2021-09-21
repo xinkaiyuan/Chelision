@@ -44,4 +44,5 @@ export function useMatchesData(
   return route?.data;
 }
 
-function isUse
+function isUser(user: any): user is User {
+  return user && typeof u
