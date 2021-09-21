@@ -39,4 +39,9 @@ export function useMatchesData(
   const matchingRoutes = useMatches();
   const route = useMemo(
     () => matchingRoutes.find((route) => route.id === id),
-    [
+    [matchingRoutes, id]
+  );
+  return route?.data;
+}
+
+function isUse
