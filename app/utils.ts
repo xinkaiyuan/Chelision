@@ -48,4 +48,5 @@ function isUser(user: any): user is User {
   return user && typeof user === "object" && typeof user.email === "string";
 }
 
-export functi
+export function useOptionalUser(): User | undefined {
+  const data = useMa
