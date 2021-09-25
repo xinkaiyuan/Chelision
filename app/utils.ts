@@ -49,4 +49,6 @@ function isUser(user: any): user is User {
 }
 
 export function useOptionalUser(): User | undefined {
-  const data = useMa
+  const data = useMatchesData("root");
+  if (!data || !isUser(data.user)) {
+    return un
