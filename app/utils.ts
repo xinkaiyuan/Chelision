@@ -56,4 +56,6 @@ export function useOptionalUser(): User | undefined {
   return data.user;
 }
 
-export functi
+export function useUser(): User {
+  const maybeUser = useOptionalUser();
+  if (!
