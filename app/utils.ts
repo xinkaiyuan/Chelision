@@ -58,4 +58,6 @@ export function useOptionalUser(): User | undefined {
 
 export function useUser(): User {
   const maybeUser = useOptionalUser();
-  if (!
+  if (!maybeUser) {
+    throw new Error(
+      "No user found in root loader,
