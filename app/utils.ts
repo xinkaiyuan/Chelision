@@ -63,4 +63,7 @@ export function useUser(): User {
       "No user found in root loader, but user is required by useUser. If user is optional, try useOptionalUser instead."
     );
   }
-  return maybeUser
+  return maybeUser;
+}
+
+export function validateEmail(email: unknown): email is 
