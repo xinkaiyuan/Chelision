@@ -5,4 +5,5 @@ describe("smoke tests", () => {
     cy.cleanupUser();
   });
 
-  it(
+  it("should allow you to register and login", () => {
+    const lo
