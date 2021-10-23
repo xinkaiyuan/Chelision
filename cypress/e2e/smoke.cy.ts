@@ -11,4 +11,6 @@ describe("smoke tests", () => {
       password: faker.internet.password(),
     };
 
-    cy.
+    cy.then(() => ({ email: loginForm.email })).as("user");
+
+    cy.visitA
