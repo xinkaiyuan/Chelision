@@ -15,4 +15,6 @@ describe("smoke tests", () => {
 
     cy.visitAndCheck("/");
 
-    cy.findByRole("link", { name: /sign
+    cy.findByRole("link", { name: /sign up/i }).click();
+
+    cy.findByRole("textbox", { name: /email/i }
