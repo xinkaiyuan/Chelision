@@ -27,4 +27,6 @@ describe("smoke tests", () => {
   });
 
   it("should allow you to make a note", () => {
-    const
+    const testNote = {
+      title: faker.lorem.words(1),
+      body: fake
