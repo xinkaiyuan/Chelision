@@ -26,4 +26,5 @@ describe("smoke tests", () => {
     cy.findByRole("link", { name: /log in/i });
   });
 
- 
+  it("should allow you to make a note", () => {
+    const
