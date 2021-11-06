@@ -29,4 +29,8 @@ describe("smoke tests", () => {
   it("should allow you to make a note", () => {
     const testNote = {
       title: faker.lorem.words(1),
-      body: fake
+      body: faker.lorem.sentences(1),
+    };
+    cy.login();
+
+    cy.visitAndCheck(
