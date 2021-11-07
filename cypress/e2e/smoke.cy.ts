@@ -33,4 +33,7 @@ describe("smoke tests", () => {
     };
     cy.login();
 
-    cy.visitAndCheck(
+    cy.visitAndCheck("/");
+
+    cy.findByRole("link", { name: /notes/i }).click();
+ 
