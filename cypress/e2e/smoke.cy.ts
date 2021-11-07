@@ -36,4 +36,6 @@ describe("smoke tests", () => {
     cy.visitAndCheck("/");
 
     cy.findByRole("link", { name: /notes/i }).click();
- 
+    cy.findByText("No notes yet");
+
+    cy.findByRole("link",
