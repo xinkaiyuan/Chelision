@@ -41,4 +41,5 @@ describe("smoke tests", () => {
     cy.findByRole("link", { name: /\+ new note/i }).click();
 
     cy.findByRole("textbox", { name: /title/i }).type(testNote.title);
-    cy.findByRole("textbox", { name: /body/i }).type(testNot
+    cy.findByRole("textbox", { name: /body/i }).type(testNote.body);
+    cy.findByRole("button", { name: /save/i }).click();
