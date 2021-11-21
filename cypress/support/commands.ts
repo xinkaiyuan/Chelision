@@ -16,4 +16,7 @@ declare global {
       login: typeof login;
 
       /**
-       * Deletes th
+       * Deletes the current @user
+       *
+       * @returns {typeof cleanupUser}
+       
