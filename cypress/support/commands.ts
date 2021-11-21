@@ -11,3 +11,5 @@ declare global {
        * @example
        *    cy.login()
        * @example
+       *    cy.login({ email: 'whatever@example.com' })
+      
