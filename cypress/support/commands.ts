@@ -25,4 +25,7 @@ declare global {
        * @example
        *    cy.cleanupUser({ email: 'whatever@example.com' })
        */
-      clean
+      cleanupUser: typeof cleanupUser;
+
+      /**
+       * Extends the standard v
