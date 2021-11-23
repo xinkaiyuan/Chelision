@@ -21,4 +21,6 @@ declare global {
        * @returns {typeof cleanupUser}
        * @memberof Chainable
        * @example
-       *    cy.clean
+       *    cy.cleanupUser()
+       * @example
+       *    cy.cleanupU
