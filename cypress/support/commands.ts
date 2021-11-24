@@ -28,4 +28,6 @@ declare global {
       cleanupUser: typeof cleanupUser;
 
       /**
-       * Extends the standard v
+       * Extends the standard visit command to wait for the page to load
+       *
+       
