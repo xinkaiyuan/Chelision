@@ -30,4 +30,7 @@ declare global {
       /**
        * Extends the standard visit command to wait for the page to load
        *
-       
+       * @returns {typeof visitAndCheck}
+       * @memberof Chainable
+       * @example
+ 
