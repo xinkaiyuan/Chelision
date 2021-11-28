@@ -33,4 +33,6 @@ declare global {
        * @returns {typeof visitAndCheck}
        * @memberof Chainable
        * @example
- 
+       *    cy.visitAndCheck('/')
+       *  @example
+       *   
