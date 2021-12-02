@@ -37,4 +37,10 @@ declare global {
        *  @example
        *    cy.visitAndCheck('/', 500)
        */
-      visitAndCheck
+      visitAndCheck: typeof visitAndCheck;
+    }
+  }
+}
+
+function login({
+  
