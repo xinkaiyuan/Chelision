@@ -35,4 +35,6 @@ declare global {
        * @example
        *    cy.visitAndCheck('/')
        *  @example
-       *   
+       *    cy.visitAndCheck('/', 500)
+       */
+      visitAndCheck
