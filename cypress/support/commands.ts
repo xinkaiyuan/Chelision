@@ -47,4 +47,6 @@ function login({
 }: {
   email?: string;
 } = {}) {
-  cy.then(() => ({ em
+  cy.then(() => ({ email })).as("user");
+  cy.exec(
+    `pnpm exec ts-node --require tsconfi
