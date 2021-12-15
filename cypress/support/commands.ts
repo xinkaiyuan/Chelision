@@ -49,4 +49,4 @@ function login({
 } = {}) {
   cy.then(() => ({ email })).as("user");
   cy.exec(
-    `pnpm exec ts-node --require tsconfi
+    `pnpm exec ts-node --require tsconfig-paths/register ./cypress/support/create-user.ts "
