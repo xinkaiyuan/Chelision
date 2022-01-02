@@ -52,3 +52,4 @@ function login({
     `pnpm exec ts-node --require tsconfig-paths/register ./cypress/support/create-user.ts "${email}"`
   ).then(({ stdout }) => {
     const cookieValue = stdout
+      .replace(/.*<cookie>(?<cookieValue>.*)<\/cookie>.*/s, "
