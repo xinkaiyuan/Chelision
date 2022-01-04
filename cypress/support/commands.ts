@@ -54,4 +54,9 @@ function login({
     const cookieValue = stdout
       .replace(/.*<cookie>(?<cookieValue>.*)<\/cookie>.*/s, "$<cookieValue>")
       .trim();
-    cy.setCookie("__session", c
+    cy.setCookie("__session", cookieValue);
+  });
+  return cy.get("@user");
+}
+
+function cleanupU
