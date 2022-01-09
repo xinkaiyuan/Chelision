@@ -61,4 +61,6 @@ function login({
 
 function cleanupUser({ email }: { email?: string } = {}) {
   if (email) {
-    de
+    deleteUserByEmail(email);
+  } else {
+    cy.get("@user").t
