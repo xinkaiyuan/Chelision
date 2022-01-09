@@ -59,4 +59,6 @@ function login({
   return cy.get("@user");
 }
 
-function cleanupU
+function cleanupUser({ email }: { email?: string } = {}) {
+  if (email) {
+    de
