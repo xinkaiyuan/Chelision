@@ -63,4 +63,5 @@ function cleanupUser({ email }: { email?: string } = {}) {
   if (email) {
     deleteUserByEmail(email);
   } else {
-    cy.get("@user").t
+    cy.get("@user").then((user) => {
+      const email = (user as { email?: string }).em
