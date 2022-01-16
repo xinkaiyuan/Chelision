@@ -66,4 +66,11 @@ function cleanupUser({ email }: { email?: string } = {}) {
     cy.get("@user").then((user) => {
       const email = (user as { email?: string }).email;
       if (email) {
-        deleteUserByEmail(ema
+        deleteUserByEmail(email);
+      }
+    });
+  }
+  cy.clearCookie("__session");
+}
+
+fu
