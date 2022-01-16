@@ -75,3 +75,4 @@ function cleanupUser({ email }: { email?: string } = {}) {
 
 function deleteUserByEmail(email: string) {
   cy.exec(
+    `pnpm exec ts-node --require tsconfig-paths/register ./cyp
