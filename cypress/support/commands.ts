@@ -73,4 +73,5 @@ function cleanupUser({ email }: { email?: string } = {}) {
   cy.clearCookie("__session");
 }
 
-fu
+function deleteUserByEmail(email: string) {
+  cy.exec(
