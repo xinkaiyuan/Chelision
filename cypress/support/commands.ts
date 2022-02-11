@@ -77,4 +77,7 @@ function deleteUserByEmail(email: string) {
   cy.exec(
     `pnpm exec ts-node --require tsconfig-paths/register ./cypress/support/delete-user.ts "${email}"`
   );
-  cy.cl
+  cy.clearCookie("__session");
+}
+
+// We're waiting a second because of th
