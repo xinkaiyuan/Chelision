@@ -80,4 +80,5 @@ function deleteUserByEmail(email: string) {
   cy.clearCookie("__session");
 }
 
-// We're waiting a second because of th
+// We're waiting a second because of this issue happen randomly
+// https://github.com/cypress-io/cypress/i
