@@ -82,4 +82,5 @@ function deleteUserByEmail(email: string) {
 
 // We're waiting a second because of this issue happen randomly
 // https://github.com/cypress-io/cypress/issues/7306
-// Also added custom types to avoid getting de
+// Also added custom types to avoid getting detached
+// https://github.com/cypress-io/cypress/issues/
