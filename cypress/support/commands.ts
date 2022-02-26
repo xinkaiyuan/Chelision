@@ -90,4 +90,5 @@ function visitAndCheck(url: string, waitTime: number = 1000) {
   cy.location("pathname").should("contain", url).wait(waitTime);
 }
 
-Cypress.Com
+Cypress.Commands.add("login", login);
+Cypress.Commands.add("cleanupUser", cle
