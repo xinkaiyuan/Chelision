@@ -87,4 +87,7 @@ function deleteUserByEmail(email: string) {
 // ===========================================================
 function visitAndCheck(url: string, waitTime: number = 1000) {
   cy.visit(url);
-  cy.location("pathna
+  cy.location("pathname").should("contain", url).wait(waitTime);
+}
+
+Cypress.Com
