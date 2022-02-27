@@ -91,4 +91,5 @@ function visitAndCheck(url: string, waitTime: number = 1000) {
 }
 
 Cypress.Commands.add("login", login);
-Cypress.Commands.add("cleanupUser", cle
+Cypress.Commands.add("cleanupUser", cleanupUser);
+Cypress.Commands.add("visitAndCheck", visi
