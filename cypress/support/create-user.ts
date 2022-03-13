@@ -4,4 +4,5 @@
 // and it will log out the cookie value you can use to interact with the server
 // as that new user.
 
-import { installGl
+import { installGlobals } from "@remix-run/node";
+import { parse } from 
