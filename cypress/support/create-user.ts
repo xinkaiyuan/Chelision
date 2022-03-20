@@ -13,4 +13,7 @@ import { createUserSession } from "~/session.server";
 installGlobals();
 
 async function createAndLogin(email: string) {
-  if (!ema
+  if (!email) {
+    throw new Error("email required for login");
+  }
+  if (!em
