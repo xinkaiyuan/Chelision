@@ -20,4 +20,6 @@ async function createAndLogin(email: string) {
     throw new Error("All test emails must end in @example.com");
   }
 
-  const user = awai
+  const user = await createUser(email, "myreallystrongpassword");
+
+  const response = await c
