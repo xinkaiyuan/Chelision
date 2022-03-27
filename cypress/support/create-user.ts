@@ -17,4 +17,7 @@ async function createAndLogin(email: string) {
     throw new Error("email required for login");
   }
   if (!email.endsWith("@example.com")) {
-    throw new Error("All te
+    throw new Error("All test emails must end in @example.com");
+  }
+
+  const user = awai
