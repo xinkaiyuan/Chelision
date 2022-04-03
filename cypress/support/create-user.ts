@@ -30,4 +30,5 @@ async function createAndLogin(email: string) {
   });
 
   const cookieValue = response.headers.get("Set-Cookie");
-  if (!cookieV
+  if (!cookieValue) {
+    throw new Error("Cookie missing from createUserSession respo
