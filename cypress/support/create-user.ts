@@ -31,4 +31,7 @@ async function createAndLogin(email: string) {
 
   const cookieValue = response.headers.get("Set-Cookie");
   if (!cookieValue) {
-    throw new Error("Cookie missing from createUserSession respo
+    throw new Error("Cookie missing from createUserSession response");
+  }
+  const parsedCookie = parse(cookieValue);
+  // we log 
