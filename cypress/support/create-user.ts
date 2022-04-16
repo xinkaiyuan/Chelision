@@ -39,4 +39,10 @@ async function createAndLogin(email: string) {
   console.log(
     `
 <cookie>
-  ${parsedC
+  ${parsedCookie.__session}
+</cookie>
+  `.trim()
+  );
+}
+
+createAndLogin(process.a
