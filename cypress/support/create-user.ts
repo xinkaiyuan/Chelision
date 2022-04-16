@@ -45,4 +45,4 @@ async function createAndLogin(email: string) {
   );
 }
 
-createAndLogin(process.a
+createAndLogin(process.argv[2]);
