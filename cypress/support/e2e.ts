@@ -7,4 +7,6 @@ Cypress.on("uncaught:exception", (err) => {
   // so we can remove this.
   if (
     /hydrat/i.test(err.message) ||
-    /Minified React erro
+    /Minified React error #418/.test(err.message) ||
+    /Minified React error #423/.test(err.message)
+  ) {
