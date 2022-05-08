@@ -1,3 +1,6 @@
 import { defineConfig } from "cypress";
 
-export default defineConfi
+export default defineConfig({
+  e2e: {
+    setupNodeEvents: (on, config) => {
+      const isDev 
