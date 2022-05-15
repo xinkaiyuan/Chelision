@@ -5,4 +5,5 @@ export default defineConfig({
     setupNodeEvents: (on, config) => {
       const isDev = config.watchForFileChanges;
       const port = process.env.PORT ?? (isDev ? "3000" : "8811");
-      const configOver
+      const configOverrides: Partial<Cypress.PluginConfigOptions> = {
+        baseUrl: 
