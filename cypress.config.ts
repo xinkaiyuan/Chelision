@@ -4,4 +4,5 @@ export default defineConfig({
   e2e: {
     setupNodeEvents: (on, config) => {
       const isDev = config.watchForFileChanges;
-      const port = process.env.PORT
+      const port = process.env.PORT ?? (isDev ? "3000" : "8811");
+      const configOver
