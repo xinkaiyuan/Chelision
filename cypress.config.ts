@@ -21,4 +21,7 @@ export default defineConfig({
         },
       });
 
-      return { ...config, ...configOv
+      return { ...config, ...configOverrides };
+    },
+  },
+});
