@@ -7,4 +7,10 @@ processes = [ ]
 allowed_public_ports = [ ]
 auto_rollback = true
 cmd = "start.sh"
-entry
+entrypoint = "sh"
+
+[mounts]
+source = "data"
+destination = "/data"
+
+[[servic
