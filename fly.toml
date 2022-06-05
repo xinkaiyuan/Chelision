@@ -13,4 +13,7 @@ entrypoint = "sh"
 source = "data"
 destination = "/data"
 
-[[servic
+[[services]]
+internal_port = 8_080
+processes = [ "app" ]
+protocol = "tcp
