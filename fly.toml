@@ -21,4 +21,7 @@ script_checks = [ ]
 
   [services.concurrency]
   hard_limit = 25
-  s
+  soft_limit = 20
+  type = "connections"
+
+  [[services.por
