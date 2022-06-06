@@ -16,4 +16,9 @@ destination = "/data"
 [[services]]
 internal_port = 8_080
 processes = [ "app" ]
-protocol = "tcp
+protocol = "tcp"
+script_checks = [ ]
+
+  [services.concurrency]
+  hard_limit = 25
+  s
