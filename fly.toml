@@ -24,4 +24,7 @@ script_checks = [ ]
   soft_limit = 20
   type = "connections"
 
-  [[services.por
+  [[services.ports]]
+  handlers = [ "http" ]
+  port = 80
+  force_https = tru
