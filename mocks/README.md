@@ -1,3 +1,3 @@
 # Mocks
 
-Use this 
+Use this to mock any third party HTTP resources that you don't have running l
