@@ -3,4 +3,6 @@ const { setupServer } = require("msw/node");
 const server = setupServer();
 
 server.listen({ onUnhandledRequest: "bypass" });
-console.inf
+console.info("🔶 Mock server running");
+
+process.once("SIGINT", () 
