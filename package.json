@@ -1,3 +1,6 @@
 {
   "name": "adriantoine-indie-stack-template",
   "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "run-s b
