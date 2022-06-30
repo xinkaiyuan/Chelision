@@ -7,4 +7,5 @@
     "build:css": "pnpm run generate:css -- --minify",
     "build:remix": "remix build",
     "dev": "run-p dev:*",
-    "dev:css": "pnpm run generate:cs
+    "dev:css": "pnpm run generate:css -- --watch",
+    "dev:remix": "cross-env NODE_ENV=development b
