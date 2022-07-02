@@ -8,4 +8,5 @@
     "build:remix": "remix build",
     "dev": "run-p dev:*",
     "dev:css": "pnpm run generate:css -- --watch",
-    "dev:remix": "cross-env NODE_ENV=development b
+    "dev:remix": "cross-env NODE_ENV=development binode --require ./mocks -- @remix-run/dev:remix dev",
+    "format": "
