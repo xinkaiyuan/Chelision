@@ -12,4 +12,5 @@
     "format": "prettier --write .",
     "generate:css": "tailwindcss -o ./app/styles/tailwind.css",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
-    "setup": "prisma generate &&
+    "setup": "prisma generate && prisma migrate deploy && prisma db seed",
+    "start": "rem
