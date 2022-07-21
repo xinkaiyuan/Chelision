@@ -28,3 +28,6 @@
     "/build",
     "/public/build"
   ],
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "@remix-run/n
