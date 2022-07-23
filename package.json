@@ -32,4 +32,6 @@
     "@prisma/client": "^4.11.0",
     "@remix-run/node": "^1.14.3",
     "@remix-run/react": "^1.14.3",
-    "@remix-run/serve
+    "@remix-run/serve": "^1.14.3",
+    "@remix-run/server-runtime": "^1.14.3",
+    "@types/cookie": 
