@@ -37,4 +37,6 @@
     "@types/cookie": "^0.5.1",
     "bcryptjs": "^2.4.3",
     "isbot": "^3.6.7",
-    "pr
+    "prisma": "^4.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
