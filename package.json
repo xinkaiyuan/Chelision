@@ -60,4 +60,7 @@
     "@vitest/coverage-c8": "^0.29.3",
     "autoprefixer": "^10.4.14",
     "binode": "^1.0.5",
-    "c8": "^7.13.0
+    "c8": "^7.13.0",
+    "cookie": "^0.5.0",
+    "cross-env": "^7.0.3",
+    "cy
