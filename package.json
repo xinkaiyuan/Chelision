@@ -65,4 +65,5 @@
     "cross-env": "^7.0.3",
     "cypress": "^10.11.0",
     "eslint": "^8.36.0",
-    "eslint-c
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-cypress": "^2.12
