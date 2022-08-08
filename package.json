@@ -72,4 +72,6 @@
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",
     "prettier": "2.8.4",
-    "prettier-plugin-tailw
+    "prettier-plugin-tailwindcss": "^0.2.4",
+    "start-server-and-test": "^1.15.4",
+    "tail
