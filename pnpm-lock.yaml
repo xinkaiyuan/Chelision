@@ -1283,3 +1283,53 @@ packages:
       '@babel/plugin-transform-block-scoped-functions': 7.18.6_@babel+core@7.21.3
       '@babel/plugin-transform-block-scoping': 7.21.0_@babel+core@7.21.3
       '@babel/plugin-transform-classes': 7.21.0_@babel+core@7.21.3
+      '@babel/plugin-transform-computed-properties': 7.20.7_@babel+core@7.21.3
+      '@babel/plugin-transform-destructuring': 7.21.3_@babel+core@7.21.3
+      '@babel/plugin-transform-dotall-regex': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-duplicate-keys': 7.18.9_@babel+core@7.21.3
+      '@babel/plugin-transform-exponentiation-operator': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-for-of': 7.21.0_@babel+core@7.21.3
+      '@babel/plugin-transform-function-name': 7.18.9_@babel+core@7.21.3
+      '@babel/plugin-transform-literals': 7.18.9_@babel+core@7.21.3
+      '@babel/plugin-transform-member-expression-literals': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-modules-amd': 7.20.11_@babel+core@7.21.3
+      '@babel/plugin-transform-modules-commonjs': 7.21.2_@babel+core@7.21.3
+      '@babel/plugin-transform-modules-systemjs': 7.20.11_@babel+core@7.21.3
+      '@babel/plugin-transform-modules-umd': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-named-capturing-groups-regex': 7.20.5_@babel+core@7.21.3
+      '@babel/plugin-transform-new-target': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-object-super': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-parameters': 7.21.3_@babel+core@7.21.3
+      '@babel/plugin-transform-property-literals': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-regenerator': 7.20.5_@babel+core@7.21.3
+      '@babel/plugin-transform-reserved-words': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-shorthand-properties': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-spread': 7.20.7_@babel+core@7.21.3
+      '@babel/plugin-transform-sticky-regex': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-template-literals': 7.18.9_@babel+core@7.21.3
+      '@babel/plugin-transform-typeof-symbol': 7.18.9_@babel+core@7.21.3
+      '@babel/plugin-transform-unicode-escapes': 7.18.10_@babel+core@7.21.3
+      '@babel/plugin-transform-unicode-regex': 7.18.6_@babel+core@7.21.3
+      '@babel/preset-modules': 0.1.5_@babel+core@7.21.3
+      '@babel/types': 7.21.3
+      babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.21.3
+      babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.21.3
+      babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.21.3
+      core-js-compat: 3.29.1
+      semver: 6.3.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@babel/preset-modules/0.1.5_@babel+core@7.21.3:
+    resolution: {integrity: sha512-A57th6YRG7oR3cq/yt/Y84MvGgE0eJG2F1JLhKuyG+jFxEgrd/HAMJatiFtmOiZurz+0DkrvbheCLaV5f2JfjA==}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.21.3
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-proposal-unicode-property-regex': 7.18.6_@babel+core@7.21.3
+      '@babel/plugin-transform-dotall-regex': 7.18.6_@babel+core@7.21.3
+      '@babel/types': 7.21.3
+      esutils: 2.0.3
+    dev: true
