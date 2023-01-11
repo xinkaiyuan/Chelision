@@ -9888,3 +9888,76 @@ packages:
       happy-dom: 8.9.0
       local-pkg: 0.4.3
       pathe: 1.1.0
+      picocolors: 1.0.0
+      source-map: 0.6.1
+      std-env: 3.3.2
+      strip-literal: 1.0.1
+      tinybench: 2.4.0
+      tinypool: 0.3.1
+      tinyspy: 1.1.1
+      vite: 4.2.0_@types+node@18.15.3
+      vite-node: 0.29.3_@types+node@18.15.3
+      why-is-node-running: 2.2.2
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+    dev: true
+
+  /vm2/3.9.14:
+    resolution: {integrity: sha512-HgvPHYHeQy8+QhzlFryvSteA4uQLBCOub02mgqdR+0bN/akRZ48TGB1v0aCv7ksyc0HXx16AZtMHKS38alc6TA==}
+    engines: {node: '>=6.0'}
+    hasBin: true
+    dependencies:
+      acorn: 8.8.2
+      acorn-walk: 8.2.0
+    dev: true
+
+  /wait-on/7.0.1_debug@4.3.4:
+    resolution: {integrity: sha512-9AnJE9qTjRQOlTZIldAaf/da2eW0eSRSgcqq85mXQja/DW3MriHxkpODDSUEg+Gri/rKEcXUZHe+cevvYItaog==}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      axios: 0.27.2_debug@4.3.4
+      joi: 17.8.4
+      lodash: 4.17.21
+      minimist: 1.2.8
+      rxjs: 7.8.0
+    transitivePeerDependencies:
+      - debug
+    dev: true
+
+  /wcwidth/1.0.1:
+    resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
+    dependencies:
+      defaults: 1.0.4
+    dev: true
+
+  /web-encoding/1.1.5:
+    resolution: {integrity: sha512-HYLeVCdJ0+lBYV2FvNZmv3HJ2Nt0QYXqZojk3d9FJOLkwnuhzM9tmamh8d7HPM8QqjKH8DeHkFTx+CFlWpZZDA==}
+    dependencies:
+      util: 0.12.5
+    optionalDependencies:
+      '@zxing/text-encoding': 0.9.0
+
+  /web-streams-polyfill/3.2.1:
+    resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
+    engines: {node: '>= 8'}
+
+  /webidl-conversions/3.0.1:
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
+    dev: true
+
+  /webidl-conversions/7.0.0:
+    resolution: {integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /whatwg-encoding/2.0.0:
+    resolution: {integrity: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==}
+    engines: {node: '>=12'}
+    dependencies:
+      iconv-lite: 0.6.3
