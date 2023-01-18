@@ -6,4 +6,7 @@ CREATE TABLE "User" (
     "updatedAt" DATETIME NOT NULL
 );
 
--- CreateTab
+-- CreateTable
+CREATE TABLE "Password" (
+    "hash" TEXT NOT NULL,
+    "userId" TE
