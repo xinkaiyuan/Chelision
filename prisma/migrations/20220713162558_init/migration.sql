@@ -9,4 +9,5 @@ CREATE TABLE "User" (
 -- CreateTable
 CREATE TABLE "Password" (
     "hash" TEXT NOT NULL,
-    "userId" TE
+    "userId" TEXT NOT NULL,
+    CONSTRAINT "Password_userId_fkey" FOREIGN KEY ("userId
