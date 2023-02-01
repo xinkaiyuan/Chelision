@@ -12,3 +12,7 @@ CREATE TABLE "Password" (
     "userId" TEXT NOT NULL,
     CONSTRAINT "Password_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE
 );
+
+-- CreateTable
+CREATE TABLE "Note" (
+    "id" TEXT NOT NULL PRIMAR
