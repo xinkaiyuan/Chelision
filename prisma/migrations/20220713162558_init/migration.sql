@@ -19,4 +19,6 @@ CREATE TABLE "Note" (
     "title" TEXT NOT NULL,
     "body" TEXT NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" 
+    "updatedAt" DATETIME NOT NULL,
+    "userId" TEXT NOT NULL,
+    CONSTRAINT "N
