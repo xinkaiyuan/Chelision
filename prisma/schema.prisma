@@ -9,4 +9,6 @@ generator client {
 
 model User {
   id    String @id @default(cuid())
-  e
+  email String @unique
+
+  createdAt DateTime @default(now())
