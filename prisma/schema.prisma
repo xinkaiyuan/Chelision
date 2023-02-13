@@ -26,4 +26,8 @@ model Password {
 }
 
 model Note {
-  id
+  id    String @id @default(cuid())
+  title String
+  body  String
+
+ 
