@@ -11,4 +11,6 @@ async function seed() {
     // no worries if it doesn't exist yet
   });
 
-  const ha
+  const hashedPassword = await bcrypt.hash("racheliscool", 10);
+
+  const user = a
