@@ -24,4 +24,7 @@ async function seed() {
     },
   });
 
-  await prisma.note.crea
+  await prisma.note.create({
+    data: {
+      title: "My first note",
+      body: "Hello, wo
