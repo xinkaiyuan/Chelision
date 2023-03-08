@@ -19,4 +19,9 @@ async function seed() {
       password: {
         create: {
           hash: hashedPassword,
-    
+        },
+      },
+    },
+  });
+
+  await prisma.note.crea
