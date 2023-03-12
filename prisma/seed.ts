@@ -38,4 +38,10 @@ async function seed() {
       body: "Hello, world!",
       userId: user.id,
     },
-  }
+  });
+
+  console.log(`Database has been seeded. 🌱`);
+}
+
+seed()
+  .c
