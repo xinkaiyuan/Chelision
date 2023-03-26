@@ -2,4 +2,5 @@
 /// <reference types="vite/client" />
 
 import react from "@vitejs/plugin-react";
-import { defineC
+import { defineConfig } from "vitest/config";
+import tsconfigPaths from "vit
