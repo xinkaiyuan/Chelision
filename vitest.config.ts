@@ -6,4 +6,7 @@ import { defineConfig } from "vitest/config";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [r
+  plugins: [react(), tsconfigPaths()],
+  test: {
+    globals: true,
+    environment
